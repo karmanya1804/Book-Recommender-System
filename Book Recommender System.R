@@ -1,6 +1,5 @@
 library('tidyverse')
 library("gridExtra")
-#install.packages('DataExplorer')
 library("DataExplorer")
 library(magrittr)
 library(ggplot2)
@@ -189,7 +188,7 @@ typeof(a)
 a_df<-data.frame(books, a$nn.index)
 head(a_df)
 
-name=readline(prompt="Enter name of the book: ")
+name=readline(prompt="Enter name of the book to recommend: ")
 
 #Function to print similar books
 
